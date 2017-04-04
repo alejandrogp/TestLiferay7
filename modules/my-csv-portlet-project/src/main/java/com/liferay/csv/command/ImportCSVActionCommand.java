@@ -2,10 +2,7 @@ package com.liferay.csv.command;
 
 import com.liferay.csv.portlet.MyCSVPortletKeys;
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCActionCommand;
-import com.liferay.portal.kernel.theme.ThemeDisplay;
-import com.liferay.portal.kernel.util.WebKeys;
 import org.osgi.service.component.annotations.Component;
-import com.liferay.portal.kernel.theme.ThemeDisplay;
 
 import javax.portlet.ActionRequest;
 import javax.portlet.ActionResponse;
@@ -22,13 +19,14 @@ import javax.portlet.PortletException;
 )
 public class ImportCSVActionCommand implements MVCActionCommand {
 
-    private static final Log _log = LogFactoryUtil.getLog(ImportCSVActionCommand.class);
+    //private static final Log _log = LogFactoryUtil.getLog(ImportCSVActionCommand.class);
 
     @Override
     public boolean processAction(ActionRequest actionRequest, ActionResponse actionResponse) throws PortletException {
-
+/*
         ServiceContext serviceContext = ServiceContextFactory.getInstance(User.class.getName(), actionRequest);
         PortletContext portletContext = actionRequest.getPortletSession().getPortletContext();
+        UploadPortletRequest request = PortalUtil.getUploadPortletRequest(actionRequest);
         ThemeDisplay themeDisplay = (ThemeDisplay) actionRequest.getAttribute(WebKeys.THEME_DISPLAY);
 
         _log.debug(" :: Import CSV :: ");
@@ -82,7 +80,7 @@ public class ImportCSVActionCommand implements MVCActionCommand {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+*/
         return true;
     }
 
