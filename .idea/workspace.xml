@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43e97fa2-285c-47b0-b8da-9d765466c005" name="Default" comment="Create workspace.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/my-csv-portlet-project/bnd.bnd" afterPath="$PROJECT_DIR$/modules/my-csv-portlet-project/bnd.bnd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/my-csv-portlet-project/src/main/java/com/liferay/csv/command/ImportCSVActionCommand.java" afterPath="$PROJECT_DIR$/modules/my-csv-portlet-project/src/main/java/com/liferay/csv/command/ImportCSVActionCommand.java" />
-    </list>
+    <list default="true" id="43e97fa2-285c-47b0-b8da-9d765466c005" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/modules/servicebuilder/servicebuilder-api/.gradle/" />
     <ignored path="$PROJECT_DIR$/modules/servicebuilder/servicebuilder-api/build/" />
     <ignored path="$PROJECT_DIR$/modules/servicebuilder/servicebuilder-service/.gradle/" />
@@ -1044,12 +1040,20 @@
       <workItem from="1491235012403" duration="69000" />
       <workItem from="1491235657523" duration="37000" />
       <workItem from="1491235714327" duration="442000" />
-      <workItem from="1491288071565" duration="3776000" />
+      <workItem from="1491288071565" duration="3852000" />
     </task>
+    <task id="LOCAL-00001" summary="Test import csv">
+      <created>1491294476713</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1491294476713</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23432000" />
+    <option name="totallyTimeSpent" value="23508000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1157,6 +1161,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test import csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test import csv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
